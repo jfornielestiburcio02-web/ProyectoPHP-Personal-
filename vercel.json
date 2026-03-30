@@ -1,13 +1,21 @@
 {
   "functions": {
     "api/**/*.php": {
-      "runtime": "vercel-php@0.7.5"
+      "runtime": "vercel-php@0.7.1"
     }
   },
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/index.xlx",
       "dest": "/api/index.php"
+    },
+    {
+      "src": "/(.*)\\.xlx",
+      "dest": "/api/$1.php"
+    },
+    {
+      "src": "/(.*)\\.php",
+      "status": 404
     }
   ]
 }
