@@ -87,8 +87,6 @@ sendToFirestore($firebaseConfig, $visitorIP);
       background: var(--gris-fondo);
       color: var(--gris-texto);
     }
-
-    /* ── HEADER ─────────────────────────────────────── */
     header {
       position: sticky;
       top: 0;
@@ -407,7 +405,7 @@ sendToFirestore($firebaseConfig, $visitorIP);
   <!-- ── MENÚ LATERAL ── -->
   <nav class="nav-drawer" id="navDrawer">
     <div class="drawer-header">Navegación</div>
-    <a href="#"><span class="nav-icon">🔐</span> Acceso a LAE</a>
+    <a href="/iniciosesión.xlx"><span class="nav-icon"></span> Acceso a LAE</a>
     <a href="#"><span class="nav-icon">📋</span> Formulario Ingreso</a>
     <a href="#"><span class="nav-icon">🗂️</span> Datos</a>
     <a href="#"><span class="nav-icon">📊</span> Resultados</a>
@@ -427,17 +425,17 @@ sendToFirestore($firebaseConfig, $visitorIP);
     <p class="section-label">Seleccione una opción</p>
 
     <div class="btn-grid">
-      <a class="btn btn-primary" href="#">
-        <span class="btn-icon">🔐</span> Acceso a LAE
+      <a class="btn btn-primary" href="/iniciosesion.xlx">
+        <span class="btn-icon"></span> Acceso a LAE
       </a>
       <a class="btn btn-secondary" href="#">
-        <span class="btn-icon">📋</span> Formulario Ingreso
+        <span class="btn-icon"></span> Formulario Ingreso
       </a>
       <a class="btn btn-secondary" href="#">
-        <span class="btn-icon">🗂️</span> Datos
+        <span class="btn-icon"></span> Datos
       </a>
       <a class="btn btn-secondary" href="#">
-        <span class="btn-icon">📊</span> Resultados
+        <span class="btn-icon"></span> Resultados
       </a>
     </div>
 
