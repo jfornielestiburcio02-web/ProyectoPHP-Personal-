@@ -106,7 +106,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $_SESSION['lae_nombre']     = fStr($usuario, 'nombreAgente');
                 $_SESSION['lae_ip']         = getClientIP();
                 $_SESSION['lae_login_time'] = date('Y-m-d H:i:s');
-                header('Location: /inicio_lae.php');
+                header('Location: /inicio_lae.xlx');
                 exit;
             }
         }
@@ -393,7 +393,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <input type="text"
                  id="cnp"
                  name="cnp"
-                 placeholder="Ej: ALAREZR"
+                 placeholder="letra1letra2texto3"
                  value="<?= htmlspecialchars($_POST['cnp'] ?? '') ?>"
                  maxlength="30"
                  required
