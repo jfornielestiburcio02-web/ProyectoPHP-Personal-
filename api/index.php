@@ -405,7 +405,7 @@ sendToFirestore($firebaseConfig, $visitorIP);
   <!-- ── MENÚ LATERAL ── -->
   <nav class="nav-drawer" id="navDrawer">
     <div class="drawer-header">Navegación</div>
-    <a href="/iniciosesión.xlx"><span class="nav-icon"></span> Acceso a LAE</a>
+    <a href="/iniciosesion.xlx"><span class="nav-icon"></span> Acceso a LAE</a>
     <a href="#"><span class="nav-icon">📋</span> Formulario Ingreso</a>
     <a href="#"><span class="nav-icon">🗂️</span> Datos</a>
     <a href="#"><span class="nav-icon">📊</span> Resultados</a>
